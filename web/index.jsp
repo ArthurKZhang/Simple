@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="login">
+<form action="login.scaction">
     <table>
         <tr>
             <td align="right">用户名：</td>
