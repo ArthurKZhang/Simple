@@ -15,9 +15,7 @@
 <tr>
     fail
     <td align="center" colspan="2">
-        <%
-            request.getParameter("username");
-        %>
+        <%=request.getParameter("username")%>
     </td>
 </tr>
 

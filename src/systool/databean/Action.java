@@ -1,5 +1,6 @@
 package systool.databean;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -9,6 +10,7 @@ public class Action {
 
     private MyClass aClass;
     private Map<String, Result> results;
+    private List<String> intercepterNames;
 
     public Action() {
     }
@@ -18,6 +20,13 @@ public class Action {
         this.results = results;
     }
 
+    public List<String> getIntercepterNames() {
+        return intercepterNames;
+    }
+
+    public void setIntercepterNames(List<String> intercepterNames) {
+        this.intercepterNames = intercepterNames;
+    }
 
     public MyClass getaClass() {
         return aClass;

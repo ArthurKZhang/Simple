@@ -9,7 +9,8 @@ import java.io.IOException;
 /**
  * Created by zhangyu on 12/1/16.
  */
-public class LoginAction {
+public class LoginAction implements ILoginAction{
+
     /**
      * @param request
      * @param response

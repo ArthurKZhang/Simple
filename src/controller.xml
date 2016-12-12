@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-controller>
+
+    <interceptor>
+        <name>logWriter</name>
+        <class>
+            <name>intercepter.LogWriter</name>
+            <method>log</method>
+        </class>
+    </interceptor>
+
     <action>
         <name>login</name>
         <class>
             <name>action.LoginAction</name>
             <method>login</method>
         </class>
+
+        <interceptor-ref>
+            <name>logWriter</name>
+        </interceptor-ref>
+
         <result>
             <name>success</name>
             <type>forward</type>
