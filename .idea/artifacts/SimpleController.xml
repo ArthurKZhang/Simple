@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" build-on-make="true" name="SimpleController">
-    <output-path>$PROJECT_DIR$/out/artifacts/SimpleController</output-path>
+    <output-path>$USER_HOME$/Downloads/Program/apache-tomcat-7.0.72/webapps/SimpleController</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

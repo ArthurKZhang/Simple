@@ -25,7 +25,7 @@ public class LoginAction implements ILoginAction{
 
         UserBean userBean = new UserBean(username, password);
 
-        boolean feedback = userBean.check(username, password);
+        boolean feedback = userBean.login(username, password);
 
         if (feedback == true) {
             return "success";

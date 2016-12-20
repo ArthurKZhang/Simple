@@ -28,21 +28,5 @@
     </table>
 </form>
 
-<form action="register.scaction">
-<table>
-    <tr>
-        <td align="right">用户名：</td>
-        <td><input type="text" name="username"/></td>
-    </tr>
-    <tr>
-        <td align="right">密码：</td>
-        <td><input type="password" name="password"/></td>
-    </tr>
-    <tr>
-        <td align="right" colspan="2"><input type="submit" value="register"/></td>
-    </tr>
-</table>
-</form>
-
 </body>
 </html>

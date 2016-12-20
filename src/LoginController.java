@@ -24,6 +24,7 @@ public class LoginController extends HttpServlet {
     @Override
     public void init() throws ServletException {
         try {
+            System.out.println("-------LoginController.init()-----------");
             ControllerParse.init();
         } catch (Exception e) {
             e.printStackTrace();
@@ -79,7 +80,11 @@ public class LoginController extends HttpServlet {
             String re_value = result.getValue();
 
             if (re_type.equals("forward")) {
-                request.getRequestDispatcher(re_value).forward(request, response);
+                if (re_value.endsWith(".xml")) {
+                    response.sendRedirect(request.getContextPath() + "/" + re_value);
+                } else {
+                    request.getRequestDispatcher(re_value).forward(request, response);
+                }
             } else if (re_type.equals("redirect")) {
                 response.sendRedirect(request.getContextPath() + "/" + re_value);
             } else {

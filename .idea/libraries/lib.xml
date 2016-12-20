@@ -3,6 +3,8 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/lib" />
       <root url="jar://$USER_HOME$/Documents/USTC/J2EE/dom4j-1.6.1/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Program/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Program/postgresql-9.4.1212.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
